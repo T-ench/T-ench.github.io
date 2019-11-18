@@ -128,3 +128,25 @@ for（var i=0; i<arr.length-1; i++){
     }        
 }
 ```
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: 'e1cb389c1bf13114d88a',
+    clientSecret: '7f3821c2db772b973d958b948b932e129cfc7aaf',
+    repo: 'T-ench.github.io',
+    owner: 'T-ench',
+    admin: ['T-ench'],
+    <!--distractionFreeMode: {{site.gitalk.distractionFreeMode}},-->
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
