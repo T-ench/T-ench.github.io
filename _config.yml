@@ -63,7 +63,7 @@ kramdown:
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 6bc849289a89f50e892d                           #生成的clientID
-  clientSecret: 244ad04af8780cb1da5291d53be58e458c705d37    #生成的clientSecret
+  clientSecret: 1d7498084cd62b2fe0b036fda311d5b8163f207f    #生成的clientSecret
   repo: T-ench.github.io    #仓库名称
   owner: T-ench    #github用户名
   admin: T-ench
